@@ -8,5 +8,9 @@ import lombok.Setter;
 @Getter
 public class TNode {
     private TNode next;
-    private int value;
+    private char value;
+
+    public String toString() {
+        return value + "";
+    }
 }
